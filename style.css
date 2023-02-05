@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Arial';
+}
+body{ 
+    background-color: cadetblue;
+}
+
+.header-title {
+    color: blue;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    
+}
+.about {
+    border: solid 3px rebeccapurple;
+    border-radius: 10px;
+    max-width: 320px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.active {
+    border: none;
+    outline: none;
+    background: chartreuse;
+    padding: 10px;
+    border-radius: 15px;
+    
+
+}
+.bad{
+    border: none;
+    outline: none;
+    background: coral;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.first-img {
+    width: 100%;
+    height: 100%;
+}
+.about-desc {
+    color: aqua;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+
+}
+.btns {
+    display: flex;
+    column-gap: 10px;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
